@@ -1,21 +1,3 @@
-//alert('test');
-/*  
-//https://tinyurl.com/dynamic-html-checker
-document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
-
-document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
-
-//manages mobile nav 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}  
-*/
-
 $(document).ready(function(){
     let myDate = new Date();
     let season = myDate.getMonth();
@@ -108,7 +90,7 @@ $(document).ready(function(){
                 name: "Jacket",
                 pic: "images/winter-wear.jpg",
                 alt: "A picture of a scarf",
-                <b>season: "<b>Winter</b>",
+                season: "<b>Winter</b>",
                 desc: "A Jacket is a great accessory to keep you warm during the winter!",
             };
             break;
