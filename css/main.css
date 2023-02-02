@@ -43,27 +43,3 @@ nav ul li
 nav a:hover{
 	text-decoration: none;
 }	
-
-.season-background {
-    width: 100%;
-    height: 100%;
-    background-color: blue; /* default color */
-
-  }
-
-
-  
-  /* Fall */
-  .fall .season-background {
-    background-color: red;
-  }
-  
-  /* Spring */
-  .spring .season-background {
-    background-color: green;
-  }
-  
-  /* Summer */
-  .summer .season-background {
-    background-color: orange;
-  }
